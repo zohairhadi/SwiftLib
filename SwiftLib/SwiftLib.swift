@@ -1,5 +1,5 @@
 //
-//  SwiftyLib.swift
+//  SwiftLib.swift
 //  SwiftLib
 //
 //  Created by Syed Zohair Abbas Hadi on 04/10/2022.
@@ -7,9 +7,9 @@
 
 import Foundation
 
-public final class SwiftyLib {
+public final class SwiftLib {
 
-	let name = "SwiftyLib"
+	let name = "SwiftLib"
 	
 	public func add(a: Int, b: Int) -> Int {
 		return a + b

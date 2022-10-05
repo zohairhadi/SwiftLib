@@ -10,10 +10,10 @@ import XCTest
 
 class SwiftLibTests: XCTestCase {
 	
-	var swiftyLib: SwiftyLib!
+	var swiftyLib: SwiftLib!
 	
 	override func setUp() {
-		swiftyLib = SwiftyLib()
+		swiftyLib = SwiftLib()
 	}
 	
 	func testAdd() {
