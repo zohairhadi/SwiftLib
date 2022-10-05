@@ -1,0 +1,51 @@
+    1|       |//
+    2|       |//  SwiftLibTests.swift
+    3|       |//  SwiftLibTests
+    4|       |//
+    5|       |//  Created by Syed Zohair Abbas Hadi on 04/10/2022.
+    6|       |//
+    7|       |
+    8|       |import XCTest
+    9|       |@testable import SwiftLib
+   10|       |
+   11|       |class SwiftLibTests: XCTestCase {
+   12|       |	
+   13|       |	var swiftyLib: SwiftLib!
+   14|       |	
+   15|      4|	override func setUp() {
+   16|      4|		swiftyLib = SwiftLib()
+   17|      4|	}
+   18|       |	
+   19|      1|	func testAdd() {
+   20|      1|		XCTAssertEqual(swiftyLib.add(a: 1, b: 1), 2)
+   21|      1|	}
+   22|       |	
+   23|      1|	func testSubtract() {
+   24|      1|		XCTAssertEqual(swiftyLib.sub(a: 10, b: 7), 3)
+   25|      1|	}
+   26|       |
+   27|      4|    override func setUpWithError() throws {
+   28|      4|        // Put setup code here. This method is called before the invocation of each test method in the class.
+   29|      4|    }
+   30|       |
+   31|      4|    override func tearDownWithError() throws {
+   32|      4|        // Put teardown code here. This method is called after the invocation of each test method in the class.
+   33|      4|    }
+   34|       |
+   35|      1|    func testExample() throws {
+   36|      1|        // This is an example of a functional test case.
+   37|      1|        // Use XCTAssert and related functions to verify your tests produce the correct results.
+   38|      1|        // Any test you write for XCTest can be annotated as throws and async.
+   39|      1|        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
+   40|      1|        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+   41|      1|    }
+   42|       |
+   43|      1|    func testPerformanceExample() throws {
+   44|      1|        // This is an example of a performance test case.
+   45|     10|        self.measure {
+   46|     10|            // Put the code you want to measure the time of here.
+   47|     10|        }
+   48|      1|    }
+   49|       |
+   50|       |}
+
