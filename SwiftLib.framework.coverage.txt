@@ -1,0 +1,23 @@
+    1|       |//
+    2|       |//  SwiftLib.swift
+    3|       |//  SwiftLib
+    4|       |//
+    5|       |//  Created by Syed Zohair Abbas Hadi on 04/10/2022.
+    6|       |//
+    7|       |
+    8|       |import Foundation
+    9|       |
+   10|       |public final class SwiftLib {
+   11|       |
+   12|       |	let name = "SwiftLib"
+   13|       |	
+   14|      1|	public func add(a: Int, b: Int) -> Int {
+   15|      1|		return a + b
+   16|      1|	}
+   17|       |	
+   18|      1|	public func sub(a: Int, b: Int) -> Int {
+   19|      1|		return a - b
+   20|      1|	}
+   21|       |	
+   22|       |}
+

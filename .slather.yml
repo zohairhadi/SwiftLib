@@ -3,4 +3,4 @@ xcodeproj: SwiftLib.xcodeproj
 scheme: SwiftLib
 output_directory: reports
 ignore:
-  - SwiftyLibTests/*
+  - SwiftLibTests/*
