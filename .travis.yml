@@ -11,9 +11,5 @@ script: - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project Sw
 #  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project SwiftLib.xcodeproj -scheme SwiftLib -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
 
 
-  
-#old
-#xcodebuild test -enableCodeCoverage YES -project SwiftLib.xcodeproj -scheme SwiftLib -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
-
 #working
 #xcodebuild test -enableCodeCoverage YES -project SwiftLib.xcodeproj -scheme SwiftLib -sdk iphonesimulator15.5 -destination "platform=iOS Simulator,OS=15.5,name=iPhone 12" ONLY_ACTIVE_ARCH=YES
